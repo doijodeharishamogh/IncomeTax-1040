@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Assignment 1 - US Income tax form></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="Assignment3.css">
+</head>
+
+<!--Page 1-->
+<body>
+        <form>
+<!-- Heading-->
+<!--The header of the form starts here.-->
+          <div>
+            <div class = "topheading">   
+                 
+              <div class="vertical"><font size="4">Form</font></div>
+              <div class = "topleft"><b><font size="10">1040</font></b>
+              </div>
+              <div class = "topmiddleleft">
+              <font size="3">Department of the Treasury—Internal Revenue Service(99)</font><br>
+                <b><font size="4">U.S. Individual Income Tax Return</font></b>
+              </div>
+                  
+              <div class = "topmiddleright">
+                <b><font size="8">2018</font></b>             
+                </div> 
+                <div class = "topright">OMB No. 1545-0074</div>
+                <div class = "topright"><small>IRS Use Only—Do not write or staple in this space. </small></div>
+            </div>
+<!-- The form actual starting with filling information--> 
+<!--The Actual form to take the candidate's information starts here. -->         
+              <br> <br><br> 
+              <!--This div is to get the filing status of the candidate. Wether single or married etc.-->
+                <div>  
+                  <div class="second">
+                    <label>Filling status:</label> 
+                    <input type="checkbox">Single
+                    <input type="checkbox"> Married filing jointly
+                    <input type="checkbox">Married filing separately
+                    <input type="checkbox"> Head of household
+                    <input type="checkbox">Qualifying widow(er)
+                  </div>
+                  <!--This div takes the first name lastname and ssn of the filing candidate.--> 
+                  <div class="outerbox1">
+                    <div class = "box3">Your first name and initial<br><input type="text" name="fname" required></div>
+                    <div class ="box3">Last name<br><input type="text" name="lname" required></div>
+                    <div class = "box3l"><b>Your social security number</b><br> <input type="number" name="ssn" min="0" max="999999999" required>
+                    </div>
+                  </div>
+                  <div class=third>
+                    <label>Your standard deduction: </label> 
+                    <input type="checkbox">Someone can claim you as a dependent
+                    <input type="checkbox">You were born before January 2, 1954
+                    <input type="checkbox">You are blind
+                  </div>
+                  <!--This div takes the first name lastname and ssn of the candidate's dependants.--> 
+                  <div class = "outerbox1">
+                    <div class = "box3">If joint return, spouse's first name and initial <br><input type="text" name="fname" size="40"></div>
+                    <div class = "box3">Last name <br> <input type="text" name="lname"></div>
+                    <div class = "box3l"><b>Spouse’s social security number</b><br><input type="number" name="spousessn"  min="0" max="999999999"></div>
+                  </div>
+                  <div class ="outerbox3">
+                    <div class="citybox1">Spouse standard deduction:  
+                    <input type="checkbox">Someone can claim your spouse as a dependent
+                    &emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="checkbox"> Spouse was born before January 2, 1954
+                    &nbsp;
+                    <br>
+                    <input type="checkbox"> Spouse is blind
+                    &emsp;&emsp;&emsp;
+                    <input type="checkbox">Spouse itemizes on a separate return or you were dual-status alien</div>
+                   <div class = "citybox2"> <input type="checkbox">Full-year health care coverage or exempt (see inst.) </div>
+                  </div>
+                   <!--This div takes the address of the filing candidate.--> 
+                  <div class ="outerboxhome">
+                      <div class = "homebox1">Home address (number and street). If you have a P.O. box, see instructions. <br><input type="text" size="80" required></div>
+                      <div class= "homebox2"> Apt. no <br> <input class ="aptno" type="number" min="0" max="999" required></div>              
+                       <div class ="homebox3"><b>Presidential Election Campaign  </b>
+                       <small>(see inst.)</small> <br>
+                       <b><input type="checkbox">You</b> 
+                       <b><input type="checkbox"> Spouse</b></div>
+                     </div>
+                     <div class = "outerboxhome">
+                        <div class = "citybox1"> City, town or post office, state, and ZIP code. If you have a foreign address, attach Schedule 6. <br><input type="text" size = "80" required>
+                        </div> 
+                        <div class = "citybox3"> If more than four dependents,<br>see inst. and ✓ here ▶<input type="checkbox"></div>
+                        <br>
+                       </div>
+                       <!--This div takes the first name lastname and ssn of all dependants of the filing candidate.-->
+                     <div class = "dependentsouter"> 
+                       <div class="dependentsbox1"><b>&emsp;Dependents</b> (See instructions): <br>
+                         &emsp;First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Last name<br>
+                       </div>                
+                       <div class ="dependentsbox2"><b>(2)</b> Social security number <br> <br>
+                       </div>
+                       <div class ="dependentsbox2"><b>(3)</b> Relationship to you <br><br>
+                       </div>
+                       <div class = "dependentsbox3"><b>(4)</b> ✓ if qualifies for (see inst.): <br>
+                         Child tax credit
+                       &emsp;&emsp;
+                       Credit for other dependents
+                     </div>  
+                   </div>
+                   <div class = "dependentsouter">
+                     <div class = "dependentsbox1"> 
+                       <div class = "dependentsbox4">&emsp;<input type ="text" size= 50></div>
+                       <div class = "dependentsbox4">&emsp;<input type ="text" size= 50></div>
+                       <div class = "dependentsbox4">&emsp;<input type ="text" size= 50></div>
+                       <div class = "dependentsbox5">&emsp;<input type ="text" size= 50></div>
+                     </div>
+                     <div class = "dependentsbox2">
+                       <div class = "dependentsbox4"><input type="number" name="ssn" min="0" max="999999999"></div>
+                       <div class = "dependentsbox4"> <input type="number" name="ssn" min="0" max="999999999"></div>
+                       <div class = "dependentsbox4"><input type="number" name="ssn" min="0" max="999999999"></div>
+                       <div class = "dependentsbox5"><input type="number" name="ssn" min="0" max="999999999"></div>
+                     </div>
+                     <div class = "dependentsbox2">
+                       <div class = "dependentsbox4"><input type ="text"></div>
+                       <div class = "dependentsbox4"><input type ="text"></div>
+                       <div class = "dependentsbox4"><input type ="text"></div>
+                       <div class = "dependentsbox5"><input type ="text"></div>
+                     </div>
+                     <div class = "dependentsbox6"> 
+                       <div class = "dependentsbox8"><input type ="checkbox"></div>
+                       <div class = "dependentsbox8"><input type ="checkbox"></div>
+                       <div class = "dependentsbox8"><input type ="checkbox"></div>
+                       <div class = "dependentsbox10"><input type ="checkbox"></div>
+                     </div>
+                     <div class = "dependentsbox7"> 
+                         <div class = "dependentsbox8"><input type ="checkbox"></div>
+                         <div class = "dependentsbox8"><input type ="checkbox"></div>
+                         <div class = "dependentsbox8"><input type ="checkbox"></div>
+                         <div class = "dependentsbox10"><input type ="checkbox"></div>
+                       </div>
+                   </div>
+                   <!--Signature part-->
+                   <!--This div takes the signature and occupation of the filing candidate and the spouse.-->  
+                  <div class="shouter">
+                    <div class = "signhere">
+                      <b><font size="6">Sign <br>Here</font></b>
+                      <div>
+                          <font size ="1">Joint return?<br>
+                              Keep a copy for<br>
+                              See instructions.<br>
+                              your records. </font>
+                      </div>  
+                    </div>                           
+                    <div class = "arrow-right"></div>
+                      <div class = "penalty">
+                        <div><font size ="2">Under penalties of perjury, I declare that I have examined this return and accompanying schedules and statements, and to the best of my knowledge and belief, they are true,<br> 
+                            correct, and complete. Declaration of preparer (other than taxpayer) is based on all information of which preparer has any knowledge.</font>
+                        </div>
+                        <div class= "signature">
+                        <div class="signaturebox1">
+                          Your Signature<br>
+                          <input type= "text" size=40 required>
+                        </div>
+                        <div class="signaturedate">
+                            Date<br><input type ="date" required>
+                        </div>
+                        <div class ="signatureoccp">
+                          Your Occupation <br> <input type="text" required>
+                        </div>
+                        <div class = "signatureend">
+                          <small>If the IRS sent you an Identity Protection PIN</small><br><input type="number" min="0" max="999999">
+                        </div>
+                        </div>
+
+                        <div class = "signature">
+                            <div class="signaturebox1">
+                                Spouse’s signature. If a joint return, both must sign.<br>
+                                <input type= "text" size=40>
+                              </div>
+                              <div class="signaturedate">
+                                  Date<br><input type ="date">
+                              </div>
+                              <div class ="signatureoccp">
+                                Spouse's Occupation <br> <input type="text">
+                              </div>
+                              <div class = "signatureend">
+                                <small>If the IRS sent you an Identity Protection PIN</small><br><input type="number" min="0" max="999999">
+                              </div>
+                        </div>
+                        <br>
+                        </div>
+                        </div>
+                          <!--Preparer Signature PArt-->
+                          <!--This div takes the information of the paid preparers name and signature and the firms name and address-->
+                    <br>
+                    <div class= "pouter">
+                    
+                    <div class = "preparer">
+                        <b><font size="4">Paid<br>
+                              Preparer<br>
+                              Use Only</font></b>
+                    </div>
+  
+                    <div class="preparercontent">
+                      
+                      <div class = "pcontent1">
+                        <div class = "pbox1">
+                            Preparer’s name <br>
+                            <input type="text">
+                        </div>
+  
+                        <div class ="pbox2">
+                            Preparer’s signature<br>
+                            <input type = "name">
+                        </div>
+  
+                        <div class ="pbox3">
+                            PTIN<br>
+                            <input type = "name" size=10>
+                        </div>
+                        
+                        <div class ="pbox4">
+                            Form's EIN<br>
+                            <input type = "number" min="0" max="999999999">
+                        </div>
+  
+                        <div class = "pbox8">
+                            Check if: <br>
+                            <input type ="checkbox">3rd Party Designee
+  
+                        </div>
+                      </div>
+                      <!--Firm's Name part whole-->
+                      <div class = "pcontent2"> 
+                        <div class ="pbox5">
+                          Firm's name &nbsp;<div class="arrow-right1"></div><input type = text size = 60>
+                        </div>
+                        <!--Phone number PArt-->
+                        <div class ="pbox6">
+                            Phone no. <input type = "number" min="0" max="9999999999" size = 60>
+                          </div>  
+                          <div class = "pbox9">
+                              
+                              <input type ="checkbox">Self-employed
+    
+                          </div>            
+                      </div>
+                      <!--The small Box-->
+                      <!--Firm Address PArt-->
+                      <div class="pcontent3">
+                        Firm address <div class="arrow-right1"></div> <input type = text size = 60>
+                      </div>
+                    </div>
+                </div>
+                <!-- last of page 1-->
+                <div class= "lastbox">
+                    <b>For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions. C </b>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <small>Cat. No. 11320B </small>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    Form 1040 (2018)
+                    </div>
+                    <br>
+                     <!--Page 2 of the form starts here.-->
+                    <div class="wrapper">
+                        <div class="top">
+                                <span>
+                                        Form 1040 (2018)
+                                </span>
+                                <span class="righttext">
+                                        page 2
+                                </span>
+                        </div>
+                        <div class="left">
+                            <br>
+                            <br>
+                            <p>Attach Form(s) W-2. Also attach form(s) W-2G and 1099-R if tax was withheld.</p>
+                            <br><br><br><br><br><br><br><br><br>
+                            <div class="roundborder"><b>Standard deduction for-</b>
+                            <ul ><li>Single or married filing separately, $12,000.</li>
+                                <li>Married filing jointly or qualifying widow(er), $24,000.</li>
+                                <li>Head of household, $18,000.</li>
+                                <li>If you have checked any box under standard deduction see instruction.</li></ul>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <div class="centertable">
+                                <table>
+                                    <tr><td>2a</td> <td><input type="number" name="righttable"></td></tr>
+                                    <tr><td>3a</td> <td><input type="number" name="righttable"></td></tr>
+                                    <tr><td>4a</td> <td><input type="number" name="righttable"></td></tr>
+                                    <tr><td>5a</td> <td><input type="number" name="righttable"></td></tr>
+                                </table>
+                                <!--This div takes the information of the candidates income and deductibles-->
+                            </div>
+                            <span><b>1.</b>Wages, salaries, tips, etc. Attach Form(s) W-2</span><br><br>
+                            <span><b>2a.</b> Tax-exempt interest</span><span class="indivspan"><b>2b.</b> Taxable interest</span><br><br>
+                            <span><b>3a.</b> Qualified dividends</span><span class="indivspan"><b>3b.</b> Ordinary dividends</span><br><br>
+                            <span><b>4a.</b> IRA's, pensions and annuties<span class="indivspan"><b>4b.</b> Taxable amount</span></span><br><br>
+                            <span><b>5a.</b> Social security benifits</span><span class="indivspan"><b>5b.</b> Taxable amount</span><br><br>
+                            <span><b>6.</b> Total income. Add lines 1 through 5. Add any amount from schedule 1, line 22</span><br><br>
+                            <span><b>7.</b> Adjusted gross income. If you have no adjustments to income, enter amount from line 6; otherwise, subtract Schedule 1, line 36, from line 6 </span><br><br>
+                            <span><b>8.</b> Standard deduction or itimized deduction </span><br><br>
+                            <span><b>9.</b> Qualified business income deductions(see instructions) </span><br><br>
+                            <span><b>10.</b> Taxable income. Subtract lines 8 and 9 from line 7. If zero or less, enter -0- </span><br><br>
+                            <span><b>11.</b> <b>a.</b> Tax(see inst.) <input type="text" name="11a" size="8" maxlength="8"> (check if any from: <b>1.</b><input type="checkbox" name="8814" value="8814"> Form(s) 8814 &emsp;<b>2.</b><input type="checkbox" name="4972" value="4972"> Form 4972 &emsp;<b>3.</b><input type="checkbox" name="8814" value="8814"> <input type="text" name="113" size="8" maxlength="8">)</span><br>
+                            <span>&emsp;&nbsp;&nbsp;<b>b.</b><strong>Add</strong> any amount from Schedule 2 and check here ►<input type="checkbox" name="add11b" value="add11b"></span><br><br>
+                            <span><b>12.</b> <b>a.</b>Child tax credit/credit for other dependants <input type="text" name="12a" size="8" maxlength="8"> <b>b.</b> <strong>Add</strong> any amount from schedule 3 and check here ►<input type="checkbox" name="add11b" value="add11b"></span><br><br>
+                            <span><b>13.</b> Subtract line 12 from line 11. If zero or less, enter -0- </span><br><br>
+                            <span><b>14.</b> Other taxes. Attach schedule 4 </span><br><br>
+                            <span><b>15.</b> Total tax. Add lines 13 and 14 </span><br><br>
+                            <span><b>16.</b> Federal income tax withheld from W-2 and 1099 </span><br><br>
+                            <span><b>17.</b> Refundable credits: <b>a.</b> EIC (see inst.) <input type="text" name="17a" size="8" maxlength="8"> &emsp;<b>b.</b> Sch. 8812 <input type="text" name="17b" size="8" maxlength="8"> &emsp;<b>c.</b> Form 8863 <input type="text" name="17c" size="8" maxlength="8"></span><br><br>
+                            <span>&emsp;&emsp;&nbsp;&nbsp;&nbsp;<strong>Add</strong> any amount from schedule 5 <input type="text" name="17a" size="8" maxlength="8"></span><br><br>    
+                            <span><b>18.</b> Add lines 16 and 17. These are your total payments </span><br>
+                        </div>
+                        <div class="right">
+                            <table>
+                                    <colgroup>
+                                        <col class="colcolor">
+                                    </colgroup>
+                                <tr><td>1</td><td><input type="number" name="righttable"></td></tr>
+                                <tr><td>2b</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>3b</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>4b</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>5b</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>6</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>7</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>8</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>9</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>10</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>11</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td>12</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>13</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>14</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>15</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>16</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td>17</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>18</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>19</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>20</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td>21</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td></td><td></td></tr>
+                                <tr><td>22</td><td><input type="number" name="righttable" ></td></tr>
+                                <tr><td>23</td><td><input type="number" name="righttable" ></td></tr>
+                            </table>
+                        </div>
+                        <div class="bottom1left bcommon">
+                            <h2>Refund</h2>
+                            <br>
+                            <p>Direct depsit? See instructions.</p>
+                        </div>
+                        <div class="bottom2left bcommon">
+                            <p><b>Amount you owe</b></p>
+                        </div>
+                         <!--This div takes the account details of the candidate for refunds if there are any.-->
+                        <div class="bottom1 b12common">
+                            <span><b>19.</b> If line 18 is more than line 15, subtract line 15 from line 18. This the amount you <strong>overpaid</strong></span><br><br>
+                            <span><b>20</b><b>a.</b> Amount of line 19 you want<strong> refunded to you.</strong> if form 8888 is attached, check here►<input type="checkbox" name="20a" value="20a"></span><br><br>
+                            <span>►<b>b.</b> Routing number <input type="number" min="0" max="999999999">►<b>c.</b> Type: <input type="checkbox" name="checking" value="checking"> Checking <input type="checkbox" name="savings" value="savings"> Savings</span><br><br>
+                            <span>►<b>d.</b> Account number <input type="number" min="0" max="999999999999"><br><br>
+                            <span><b>21.</b> Amount of line 19 you want <strong>applied to your 2019 estimated tax overpaid</strong></span>
+                        </div>
+                        <!--This div takes the final amount that the candidate owes.-->
+                        <div class="bottom2 b12common">
+                            <span><b>22.</b><b> Amount you owe.</b> Subtract line 18 from line 15. For details on how to pay, see instructions.</span><br><br>
+                            <span><b>23.</b> Estimated tax penalty.(See instructions)</span><br><br>
+                        </div>
+                        <div class="bottom3">
+                            <span>
+                                Go to <a href="http://www.irs.gov/Form1040">www.irs.gov/Form1040</a> for more instructions.
+                        </span>
+                        <span class="righttext">
+                                Form <b>1040</b>(2018)
+                        </span>
+                        </div>
+                    </div>
+                   <input type="submit" name="submit">
+</form>
+</body>
+</html>

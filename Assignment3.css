@@ -1,0 +1,690 @@
+/*class for page 1 heading*/
+.topheading{
+    margin: auto;
+    color: black;
+}
+/*class for page 1 vertical form*/
+.vertical{
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    height:44px; 
+    width:1%; 
+    float:left;
+}
+
+/*class for page 1 top left div*/
+.topleft
+    { 
+        height:40px; 
+        width:8%; 
+        float:left;
+    }
+
+/*class for page 1 top middle div*/
+.topmiddleleft{
+    background-color:#DCFFFB;
+    height:59px;
+    width:35%;
+    text-align: left;
+    float: left;
+}
+/*class for page top right div*/
+.topmiddleright{
+    background-color:#DCFFFB;
+    width:10%;  
+    text-align: center;
+    height:60px;
+    float:left;    
+    border-left: 2px solid rgb(0, 0, 0);
+
+ 
+}
+/*class for page top right div*/
+.topright{
+    background-color:#DCFFFB;
+    bottom: 5px;
+    width:22.76%;  
+    text-align: center;
+    height:60px;
+    float:left;    
+    border-left: 2px solid rgb(0, 0, 0);
+}
+/*class for page 1 second ine*/
+.second{
+     height:25px;
+     padding-left: 10px;
+    background-color:#DCFFFB;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 2px;
+    margin-block-start: 5px;
+   
+}
+/*class for page 1 3rd line*/
+.third{
+  
+    padding-left: 10px;
+   background-color:#DCFFFB;
+   border-style: solid;
+   border-width: 1px;
+   border-top-width: 0px;
+  
+  
+}
+
+.fourth{
+    height:50px;
+    padding-left: 10px;
+   background-color:#DCFFFB;
+   border-style: solid;
+   border-width: 1px;
+   border-top-width: 0px;
+  
+  
+}
+/*class for page 1 4th line outer div*/
+.outerbox1{
+   
+    background-color:#DCFFFB;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 0px;
+}
+/*class for page 2 wline 5 outer box*/
+.outerbox3{
+   
+    background-color:#DCFFFB;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 0px;
+}
+ /*class for page 1 individual boxes*/
+.box3{
+    height:50px;
+   width:35%;
+   padding-left: 10px;
+    display: inline-block;
+    border-right:1px solid black;
+
+}
+
+
+.box3l{
+    height:50px;
+    width:17%;
+    padding-left: 10px;
+    display: inline-block;
+   
+}
+
+.outerboxhome{
+    
+    background-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-width:1px;
+    border-top-width: 0px;
+}
+
+.homebox1{
+    height:50px;
+   width:62%;
+   padding-left: 10px;
+    display: inline-block;
+    border-right:1px solid black;
+}
+
+.homebox2{
+    height:50px;
+    width:8%;
+    padding-left: 10px;
+     display: inline-block;
+     border-right:1px solid black;
+}
+
+.homebox3{
+    height:50px;
+    width:26.9%;
+    padding-left: 10px;
+    display: inline-block;
+    background-color: #DCFFFB;
+}
+/*class for page 1 apt div*/
+.aptno{
+    
+        width: 60px;
+     
+}
+/*class for city div*/
+.citybox1{
+    height:53px;
+   width:71.12%;
+   padding-left: 10px;
+    display: inline-block;
+    border-right:1px solid black;
+}
+
+.citybox2{
+    height:53px;
+   width:20%;
+   padding-left: 10px;
+    display: inline-block;
+    
+}
+
+.citybox3{
+    height:53px;
+   width:26.9%;
+   padding-left: 10px;
+    display: inline-block;
+    background-color: #DCFFFB;
+    
+}
+/*classes for dependents div*/
+.dependentsouter{
+    background-color:#DCFFFB;
+    border-style: solid;
+    border-width:1px;
+    border-top-width: 0px;
+}
+
+.dependentsbox1{
+   width:35%;
+   display: inline-block;
+    border-right:1px solid black;
+}
+
+.dependentsbox2{
+   
+    width:18%;
+    text-align: center;
+     display: inline-block;
+     border-right:1px solid black;
+ 
+ }
+ .dependentsbox3{
+   
+    width:27%;
+    display: inline-block;
+    padding-left: 10px;   
+    text-align: center;
+ }
+
+.dependentsbox4{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: -2px;
+ } 
+
+ .dependentsbox8{
+    padding: 11.61px;
+    border-bottom: 1px solid black;
+    margin: -4px;
+ } 
+
+ .dependentsbox5{
+    padding: 10px;
+     margin: -3px;
+ } 
+
+ .dependentsbox10{
+    padding: 11.11px;
+     margin: -5px;
+ } 
+
+.dependentsbox6{
+     width:13.7%;
+     text-align: center;
+     display: inline-block;
+     border-right:1px solid black;
+ }
+ .dependentsbox7{
+    width:13.5%;
+    text-align: center;
+    display: inline-block;
+}
+/*classes for signature div*/
+.shouter{
+    background-color:#DCFFFB; 
+    display: inline-block;
+    border-style: solid;
+    border-width:1px;
+    border-top-width: 0px;
+    width: 100%;
+}
+
+.signhere{
+    background-color:#DCFFFB; 
+    width:6%; 
+    height:60px;
+    display:inline-block;
+}
+
+.penalty{
+    background-color:#DCFFFB; 
+    width:91%;
+    display:inline-block;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 20px solid rgb(0, 0, 0);
+    display: inline-block;
+  }
+
+  .signature{
+    width:100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: inline-block;
+  }
+
+  .signaturebox1{
+    width:30%;
+    padding: 10px;
+    background-color: white;
+   border-right: 1px solid black;
+   
+    display: inline-block
+  }
+
+  .signaturedate{
+    width:15%;
+    padding: 10px;
+    background-color: white;
+   border-right: 1px solid black;
+   display: inline-block;
+  }
+
+  .signatureoccp{
+    width:20%;
+    padding: 10px;
+    background-color: white;
+   border-right: 1px solid black;
+   display: inline-block;
+
+  }
+
+  .signatureend{
+    width:21%;
+    padding: 10px;
+    background-color: white;
+     display: inline-block;
+  }
+
+  .signhere{
+    background-color:#DCFFFB; 
+    width:6%; 
+    height:60px;
+    display:inline-block;
+
+}
+
+/*classes for preparer dic*/
+.preparer{
+    background-color:#DCFFFB;
+    width:7.6%; 
+    height:60px;
+    display:inline-block;
+
+}
+
+.pouter{
+    background-color:#DCFFFB;
+    display: inline-block;
+    border-style: solid;
+    border-width:1px;
+    border-top-width: 0px;
+    width: 100%;
+}
+
+.preparercontent{
+    background-color:#DCFFFB; 
+    width:90%;
+    display:inline-block;
+}
+
+.pcontent1{
+   
+    width:101.25%;
+    background-color: white;
+    
+    display: inline-block;
+  }
+
+  .pbox1{
+    width:20%;
+    padding: 5px;
+    background-color: white;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+    display: inline-block
+  }
+
+  .pbox2{
+    width:30%;
+    padding: 5px;
+    margin: -4px;
+    background-color: white;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+    display: inline-block;
+ 
+  }
+
+  .pbox3{
+    width:15%;
+    margin: 0px;
+    padding: 5px;
+    background-color: white;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+    display: inline-block;
+  }
+
+  .pbox4{
+    width:14.5%;
+   
+    margin: -4px;
+    background-color: white;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   padding: 5px;
+    display: inline-block;
+  }
+
+  .pbox5{
+    width:619px;
+    padding: 5px;
+    background-color: white;
+   border-right: 1px solid black;
+    display: inline-block;
+  }
+
+  .arrow-right1 {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    
+    border-left: 10px solid rgb(0, 0, 0);
+    display: inline-block;
+  }
+
+  .pbox6{
+    width:30%;
+    padding: 5px;
+    background-color: white;
+   border-right: 1px solid black;
+   
+    display: inline-block;
+  }
+
+  
+  .pbox7{
+    width:100%;
+    padding: 5px;
+    background-color: white;
+   border-right: 1px solid black;
+   
+    display: inline-block;
+  }
+
+  .pcontent2{
+   
+    width:101.25%;
+    background-color: white;
+
+    display: inline-block;
+  }
+
+  .pcontent3{
+    padding: 5px;
+    width:100.4%;
+    background-color: white;
+    border-top: 1px solid black;
+    display: inline-block;
+  }
+
+ 
+  .pbox8{
+    width:12%;
+    padding: 5px;
+    background-color: white;
+   
+   
+    display: inline-block;
+  }
+
+  .pbox9{
+      width: 12%;
+      padding: 5px;
+      background-color: white;
+     display: inline-block;
+  }
+
+  .lastbox{
+      width: 100%;
+      background-color:#DCFFFB;
+  }
+
+  input {
+    background-color: #F1F4FF;
+  }
+
+  .lastbox{
+    width: 100%;
+    background-color:rgb(206, 245, 238);
+
+}
+/*class for page 2 wrapper*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    
+}
+/*class for page 2 top*/
+.top {
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    background-color: #DCFFFB;
+}
+/*class for page 2 left box*/
+.left {
+    width: 10%;
+    height: 707px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid black;
+    font-size: 80%;
+    padding: 2px;
+}
+/*class for page 2 bottom box1*/
+.bottom1left {
+    height: 187px;
+    margin-top: 712px;
+}
+/*class for page 2 bottom box 2*/
+.bottom2left {
+    height: 75px;
+    margin-top: 905px;
+}
+/*class for common elements of b1 and b2*/
+.bcommon{
+    width: 9.5%;
+    position: absolute;
+    border: 1px solid black;
+    border-left: 0px;
+    font-size: 100%;
+    padding: 2px;
+    padding-left: 5px;
+}
+/*class for page 2 right box*/
+.right {
+    width: 15%;
+    height: 984px;
+    float: right;
+    position: relative;
+    border: 1px solid black;
+    border-right: 0px;
+    border-left: 0px;
+}
+/*class for page 2 center*/
+.center {
+    width: 73%;
+    height: 700px;
+    margin-left:10%;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #DCFFFB;
+    
+    padding-bottom: 5px;
+}
+/*class for page 2 bottom1*/
+.bottom1{
+    height: 180px;
+    margin-top: 712px;
+}
+
+/*class for page 2 bottom2*/
+.bottom2 {
+    width: 74%;
+    height: 70px;
+}
+/*class for common attributes between b1 andb2*/
+.b12common{
+    width: 74%;
+    position: relative;
+    margin-left: 10%;
+    border: 1px solid black;
+    background-color: #DCFFFB;
+    padding: 5px;
+}
+
+.bottom3{
+    height: 20px;
+    position: relative;
+    border-top: 1px solid black;
+    margin-top: 0px;
+    padding: 5px;
+    background-color: #DCFFFB;
+}
+/*class for right aligment*/
+.righttext{
+    text-align: right;
+    float: right;
+}
+/*class for table*/
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+
+  }
+
+  th, td {
+    border: 1px solid black;
+    height: 32px;
+  }
+/*class for right table mod*/
+input[name="righttable"]{
+    height:26px; 
+    background-color: #F1F4FF;
+}
+/*class for page 2 col colour*/
+.colcolor{
+    background-color:#DCFFFB;
+}
+
+input[name="indivtext"]{
+    position: absolute;
+    left: 40%;
+} 
+
+.indivspan{
+    position: absolute;
+    left: 60%;
+}
+/*class for left box round*/
+.roundborder{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 6px;
+}
+/*class for page center table*/
+.centertable{
+    margin-top: 3%;
+    position:absolute;
+    left:30%;
+}
+/*class for laft box hover*/
+.roundborder:hover{
+    background-color: yellowgreen;
+}
+/*class for input element focus*/
+input:focus {
+    color:blue;
+  }
+/*class for submit button hover*/
+  input[name="submit"]:hover{
+ border: 2px solid black;
+  }
+  a:visited {
+    color: tomato;
+  }
+/*class for checked box box*/
+  input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 2px black;
+  }
+/*class for range check*/
+  input:in-range {
+    background-color:  #F1F4FF;
+  }
+  
+  input:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+  }
+/*class for range check*/
+  span > input {
+    background-color: #F1F4FF;
+  }
+
+  td > input{
+    height:26px; 
+    background-color: #F1F4FF; 
+  }
+
+  span::first-letter {
+    font-size: 90%;
+  }
+
+  td::first-line {
+    font-weight: bold;
+  }
+  
+
+  /*.box3::after {
+    content: "(required)"; 
+    color:black;
+  }
+
+  .box3l::after {
+    content: "(required)"; 
+    color:black;
+  }
+
+  .homebox1::after {
+    content: "(required)"; 
+    color:black;
+  }
+
+  .citybox1::after {
+    content: "(required)"; 
+    color:black;
+  }*/
+  
